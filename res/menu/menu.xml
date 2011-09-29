@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Instellingen" android:menuCategory="system" android:id="@+id/settings"></item>
+    <item android:title="Laad punten" android:menuCategory="system" android:id="@+id/loadPoints"></item>
+    <item android:title="Toggle location" android:menuCategory="system" android:id="@+id/toggleLocation"></item>
+    <item android:title="Ongedaan maken" android:menuCategory="system" android:id="@+id/undoLatestMove"></item>
+    <item android:title="Reset applicatie" android:menuCategory="system" android:id="@+id/resetApp"></item>
+</menu>

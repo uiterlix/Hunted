@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <Button android:layout_width="wrap_content" android:text="@string/btnAanmelden" android:layout_height="wrap_content" android:id="@+id/btnAanmelden"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnVertrek" android:layout_height="wrap_content" android:id="@+id/btnVertrek"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnGevonden" android:layout_height="wrap_content" android:id="@+id/btnGevonden"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnControle" android:layout_height="wrap_content" android:id="@+id/btnControle"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnWissel" android:layout_height="wrap_content" android:id="@+id/btnWissel"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnGaWeg" android:layout_height="wrap_content" android:id="@+id/btnGaWeg"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnEindpunt" android:layout_height="wrap_content" android:id="@+id/btnEindpunt"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/btnBericht" android:layout_height="wrap_content" android:id="@+id/btnBericht"></Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

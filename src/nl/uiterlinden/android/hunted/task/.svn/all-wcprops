@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xapps/!svn/ver/20/trunk/Hunted/src/nl/uiterlinden/android/hunted/task
+END
+PointsLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xapps/!svn/ver/26/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/PointsLoader.java
+END
+BerichtTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/BerichtTask.java
+END
+AanmeldTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/AanmeldTask.java
+END
+AbstractTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xapps/!svn/ver/26/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/AbstractTask.java
+END
+VertrekNaarTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/VertrekNaarTask.java
+END
+ControleTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/ControleTask.java
+END
+GevondenTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/GevondenTask.java
+END
+UndoTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xapps/!svn/ver/25/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/UndoTask.java
+END
+EindpuntTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/EindpuntTask.java
+END
+WisselTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/WisselTask.java
+END
+GaWegTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xapps/!svn/ver/23/trunk/Hunted/src/nl/uiterlinden/android/hunted/task/GaWegTask.java
+END

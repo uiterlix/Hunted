@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Hunted settings">
+        <EditTextPreference
+                android:name="Telefoonnummer"
+                android:summary="Telefoonnummer"
+                android:defaultValue="@string/defaultTelefoonNummer"
+                android:title="Telefoonnummer"
+                android:key="telefoonNummer" />
+        <EditTextPreference
+                android:name="Teamnummer"
+                android:summary="Teamnummer"
+                android:defaultValue="@string/defaultTeamNummer"
+                android:title="Teamnummer"
+                android:key="teamNummer" /> 
+        <EditTextPreference
+                android:name="Team password"
+                android:summary="Team password"
+                android:defaultValue="@string/defaultTeamPassword"
+                android:title="Team password"
+                android:key="teamPassword" />                 
+		<EditTextPreference
+                android:name="Headquarters SMS number"
+                android:summary="Headquarters SMS number"
+                android:title="Headquarters SMS number"
+                android:key="headquartersSms"
+                android:defaultValue="@string/defaultHeadquartersSms" />    
+		<EditTextPreference
+                android:name="Headquarters Host"
+                android:summary="Headquarters Host"
+                android:title="Headquarters Host"
+                android:key="hqHost"
+                android:defaultValue="@string/defaultHqHost" />
+		<EditTextPreference
+                android:name="Headquarters Port"
+                android:summary="Headquarters Port"
+                android:title="Headquarters Port"
+                android:key="hqPort"
+                android:defaultValue="@string/defaultHqPort" />                                            
+        </PreferenceCategory>
+</PreferenceScreen>

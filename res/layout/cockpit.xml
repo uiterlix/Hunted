@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">    
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:text="@string/currentGoal" android:layout_height="wrap_content" android:id="@+id/txtGoalLabel" android:layout_width="0dip" android:layout_weight=".5" android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtGoal" android:layout_weight=".5" android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>
+     <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:text="@string/currentLocation" android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtLocationLabel" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtLocation" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:text="@string/accuracy" android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtLocationLabel" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtAccuracy" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>    
+    
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:text="@string/speed" android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtLocationLabel" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtSpeed" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>    
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtDistanceLabel" android:text="@string/distanceToCurrentGoal" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtDistance" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtCatchCountLabel" android:text="@string/catchCount" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtCatchCount" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtCluesFoundLabel" android:text="@string/cluesFound" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtCluesFound" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtImmunityPeriodLabel" android:text="@string/immunityPeriod" android:layout_weight=".5"  android:textSize="20dip"></TextView>
+        <TextView android:layout_width="0dip" android:layout_height="wrap_content" android:id="@+id/txtImmunityPeriod" android:layout_weight=".5"  android:textSize="20dip" android:textColor="@color/yellow"></TextView>
+    </LinearLayout>    
+</LinearLayout>

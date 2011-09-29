@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="nl.uiterlinden.android.hunted"
+      android:versionCode="3"
+      android:versionName="1.0.2">
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <application android:label="@string/app_name" android:icon="@drawable/huntedapplogo">
+		<uses-library android:name="com.google.android.maps" />
+        <activity android:name=".HuntedMain"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Map"></activity>
+        <activity android:name="Cockpit"></activity>
+		<activity android:name="SMS"></activity>
+		<activity android:name="Stand"></activity>
+		<activity android:name="Log"></activity>
+		<activity android:name="Preferences"></activity>
+		<receiver android:name=".io.SMSReceiver" android-enabled="true">
+			<intent-filter>
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+		</receiver>
+		<service android:name=".service.HuntedService"></service>
+    </application>
+    <uses-sdk android:minSdkVersion="5"></uses-sdk>
+</manifest>
